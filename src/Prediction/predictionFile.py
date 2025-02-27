@@ -1,7 +1,7 @@
 import pandas as pd  # Missing import
 
 from src.Pipeline.s2_Data_Cleaning import DataCleaningClass
-from src.Pipeline.s4_Encoding import EncodingAndScalingClass i
+from src.Pipeline.s4_Encoding import EncodingAndScalingClass 
 class Prediction_Pipeline:
     def __init__(self):
         self.data_cleaning_obj = DataCleaningClass()  # Instantiate the class
